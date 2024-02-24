@@ -45,7 +45,7 @@ Please check th folder ***Generated-Responses-testset** for all the generated re
 
 The Empathetic Dialogue and DailyDialog datasets have been preprocessed and stored in the .npy format in the (https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing). This setup encompasses arrays for the entire conversation context, target responses, the user's current turn, the history of the conversation (excluding the current turn), as well as emotion and sentiment labels. The script used for preprocessing will be released shortly.
 
-***Training&Test***
+## Training & Testing
 
 Run main.py
 ```console
