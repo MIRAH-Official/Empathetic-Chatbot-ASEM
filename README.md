@@ -56,21 +56,8 @@ python3 main.py --model experts  --label_smoothing --noam --emb_dim 300 --hidden
 To test the pretrained "ASEM_model.pth", you can download it from (https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing) and include the command `--test`.
 
 
-## Demo
-Coming soon.
 
-## Contact Information
-* Omama Hamad: omama.hamad@qu.edu.qa
-
-
-## Important Note on Terminology
-
-Please be aware that within the codebase, the term "stance" is frequently used in variable names, comments, and documentation. Initially, the project was designed to analyze and categorize stances within textual data. However, as the project evolved, the focus shifted towards sentiment analysis.
-
-Despite this change in functionality, the original term "stance" was retained in various parts of the code to maintain consistency and avoid extensive refactoring. Therefore, when you encounter the term "stance" in variables, comments, or any part of the code, it should be understood as referring to "sentiment."
-
-
-## Using Either DD dataset
+## Using DD dataset
 To adapt the code for testing with either the ED or DD datasets, follow these instructions:
 
 For the DD (Daily Dialogue) dataset:
@@ -85,3 +72,15 @@ When executing the run command:
 2. Adjust the `--topk` parameter from 7 to 6.
 
 These changes ensure compatibility with the DD dataset and optimize the code for its specific structure and requirements.
+
+## Important Note on Terminology
+
+Please be aware that within the codebase, the term "stance" is frequently used in variable names, comments, and documentation. Initially, the project was designed to analyze and categorize stances within textual data. However, as the project evolved, the focus shifted towards sentiment analysis.
+
+Despite this change in functionality, the original term "stance" was retained in various parts of the code to maintain consistency and avoid extensive refactoring. Therefore, when you encounter the term "stance" in variables, comments, or any part of the code, it should be understood as referring to "sentiment."
+
+## Demo
+Coming soon.
+
+## Contact Information
+* Omama Hamad: omama.hamad@qu.edu.qa
