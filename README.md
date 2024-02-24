@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 [**Pre-trained glove embedding**](http://nlp.stanford.edu/data/glove.6B.zip): ***glove.6B.300d.txt*** inside folder /vectors/.
 
-Obtain the preprocessed data (.py files) by accessing the empathetic-dialogue folder at [**this link**](https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing) and use it to overwrite the current folder.
+Obtain the preprocessed data (.npy files) by accessing the empathetic-dialogue folder at [**this link**](https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing) and use it to overwrite the current folder.
 
 
 ## Results
@@ -44,7 +44,7 @@ please check the folder ***Evaluated answers*** for the human annotation and the
 
 ## Dataset
 
-The Empathetic Dialogue and DailyDialog datasets have been preprocessed and stored in the .npy format in the (https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing). This setup encompasses arrays for the entire conversation context, target responses, the user's current turn, the history of the conversation (excluding the current turn), as well as emotion and sentiment labels. The script used for preprocessing will be released shortly.
+The Empathetic Dialogue and DailyDialog datasets have been preprocessed and stored in the .npy format in [**this link**](https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing). This setup encompasses arrays for the entire conversation context, target responses, the user's current turn, the history of the conversation (excluding the current turn), as well as emotion and sentiment labels. The script used for preprocessing will be released shortly.
 
 ## Training & Testing
 
@@ -54,7 +54,7 @@ python3 main.py --model experts  --label_smoothing --noam --emb_dim 300 --hidden
 
 ```
 
-To test the pretrained "ASEM_model.pth", you can download it from (https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing) and include the command `--test`.
+To test the pretrained "ASEM_model.pth", you can download it from [**this link**](https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing) and include the command `--test`.
 
 
 
