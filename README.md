@@ -31,9 +31,11 @@ Confusion matrix for ASEM model for emotion analysis using ED dataset (0: Anger,
 ## Dependency
 Check the packages needed or simply run the command
 ```console
-❱❱❱ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 [**Pre-trained glove embedding**](http://nlp.stanford.edu/data/glove.6B.zip): ***glove.6B.300d.txt*** inside folder /vectors/.
+
+Obtain the preprocessed data (.py files) by accessing the empathetic-dialogue folder at [**this link**](https://drive.google.com/drive/folders/1q06aGAzUt7LcQ1iwR_zs_65Y6Pyiss5R?usp=sharing) and use it to overwrite the current folder.
 
 
 ## Results
