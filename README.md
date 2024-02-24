@@ -38,8 +38,7 @@ Check the packages needed or simply run the command
 
 ## Results
 
-please check the folder ***Evaluated answers*** for the human annotation.
-Please check th folder ***Generated-Responses-testset** for all the generated responses
+please check the folder ***Evaluated answers*** for the human annotation and the folder ***Generated-Responses-testset** for all the generated responses
 
 ## Dataset
 
