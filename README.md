@@ -23,7 +23,7 @@ Effective feature representations play a critical role in enhancing the performa
 ## Emotion Detection 
 
 <p align="center">
-<img src="Emotions/ASEM-Emotion Detection.png" width="100%" />
+<img src="Emotions/ASEM-Emotion Detection.png" width="70%" />
 </p>
 
 Confusion matrix for ASEM model for emotion analysis using ED dataset (0: Anger, 1: Fear, 2: Sadness, 3: Remorse, 4: Surprise, 5: Disgust, 6: Joy, 7: Anticipation, 8: Love, 9: Trust ).
