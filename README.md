@@ -40,7 +40,7 @@ Obtain the preprocessed data (.npy files) by accessing the empathetic-dialogue f
 
 ## Results
 
-please check the folder ***Evaluated answers*** for the human annotation and the folder ***Generated-Responses-testset** for all the generated responses
+Please check the folder ***Evaluated answers*** for the human annotation and the folder ***Generated-Responses-testset*** for all the generated responses
 
 ## Dataset
 
@@ -50,7 +50,7 @@ The Empathetic Dialogue and DailyDialog datasets have been preprocessed and stor
 
 Run main.py
 ```console
-python3 main.py --model experts  --label_smoothing --noam --emb_dim 300 --hidden_dim 300 --hop 12 --heads 10 --topk 7 --cuda --pretrain_emb --softmax  --mean_query --schedule 10000 --save_path save/moel/ --basic_learner --topk_stn 2
+python3 main.py --model experts  --label_smoothing --noam --emb_dim 300 --hidden_dim 300 --hop 12 --heads 10 --topk 7 --cuda --pretrain_emb --softmax  --mean_query --schedule 10000 --save_path save/asem/ --basic_learner --topk_stn 2
 
 ```
 
