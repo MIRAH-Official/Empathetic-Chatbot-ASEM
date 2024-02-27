@@ -9,7 +9,14 @@ This is the PyTorch implementation of the paper:
 
 If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
 <pre>
-To be added
+@misc{hamad2024asem,
+      title={ASEM: Enhancing Empathy in Chatbot through Attention-based Sentiment and Emotion Modeling}, 
+      author={Omama Hamad and Ali Hamdi and Khaled Shaban},
+      year={2024},
+      eprint={2402.16194},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 </pre>
 
 ## Abstract
