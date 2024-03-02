@@ -7,15 +7,17 @@ This is the PyTorch implementation of the paper:
 
 <!-- [[PDF]](https://arxiv.org/pdf/1908.07687.pdf) -->
 
+
+## Citation
 If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
-<pre>
+```bibtex
 @article{hamad2024asem,
   title={ASEM: Enhancing Empathy in Chatbot through Attention-based Sentiment and Emotion Modeling},
   author={Hamad, Omama and Hamdi, Ali and Shaban, Khaled},
   journal={arXiv preprint arXiv:2402.16194},
   year={2024}
 }
-</pre>
+```
 
 ## Abstract
 Effective feature representations play a critical role in enhancing the performance of text generation models that rely on deep neural networks. However, current approaches suffer from several drawbacks, such as the inability to capture the deep semantics of language and sensitivity to minor input variations, resulting in significant changes in the generated text. In this paper, we present a novel solution to these challenges by employing a mixture of experts, multiple encoders, to offer distinct perspectives on the emotional state of the user’s utterance while simultaneously enhancing performance. We propose an end-to-end model architecture called ASEM that performs emotion analysis on top of sentiment analysis for open-domain chatbots, enabling the generation of empathetic responses that are fluent and relevant. In contrast to traditional attention mechanisms, the proposed model employs a specialized attention strategy that uniquely zeroes in on sentiment and emotion nuances within the user's utterance. This ensures the generation of context-rich representations tailored to the underlying emotional tone and sentiment intricacies of the text. Our approach outperforms existing methods for generating empathetic embeddings, providing empathetic and diverse responses. The performance of our proposed model significantly exceeds that of existing models, enhancing emotion detection accuracy by 6.2\% and lexical diversity by 1.4\%.
