@@ -11,12 +11,26 @@ This is the PyTorch implementation of the paper:
 ## Citation
 If you use any source codes or datasets included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
 ```bibtex
-@article{hamad2024asem,
-  title={ASEM: Enhancing Empathy in Chatbot through Attention-based Sentiment and Emotion Modeling},
-  author={Hamad, Omama and Hamdi, Ali and Shaban, Khaled},
-  journal={arXiv preprint arXiv:2402.16194},
-  year={2024}
+@inproceedings{hamad-etal-2024-asem-enhancing,
+    title = "{ASEM}: Enhancing Empathy in Chatbot through Attention-based Sentiment and Emotion Modeling",
+    author = "Hamad, Omama  and
+      Shaban, Khaled  and
+      Hamdi, Ali",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.140",
+    pages = "1588--1601"
 }
+
 ```
 
 ## Abstract
